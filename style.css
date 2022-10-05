@@ -4,6 +4,7 @@ body {
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
+    margin: 0;
     
     
     
@@ -50,6 +51,7 @@ background-color: #1f2937;
 color: #f9faf8;
 padding: 24px 320px 60px 320px;
 height: 250px;
+
 }
 
 
@@ -85,8 +87,10 @@ height: 250px;
 
 .sec1r {
     display: flex;
-    justify-content: center;
-    text-align: center;
+    width: 507.92px
+    
+    
+    
     
     
 }
@@ -122,9 +126,18 @@ height: 250px;
 
 .opcontainer {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap:40px;
 
+}
+
+.ilustrcontainer {
+text-align: center;
+}
+
+.profesionales {
+    height: 200px;
+    width: 220px;
 }
 
 /*SECCIÓN 3*/
@@ -175,7 +188,7 @@ height: 250px;
     color: #e5e7eb;
     display: flex;
     padding: 40px 80px;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 80px;
     align-items: center;
     width: 900px;
@@ -196,10 +209,14 @@ height: 250px;
     font-weight: bold;
     border-color: #e5e7eb;
     background-color: #3882f6;
-    height: 30px;
-    width: 200px;
+    height: 40px;
+    width: 120px;
+    border-radius: 12px;
+    border-style: solid;
 
 }
+
+
 
 /*FOOTER*/
 
